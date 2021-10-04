@@ -21,7 +21,7 @@ import {hideBin} from 'yargs/helpers';
 
 import {generatePlaylist} from './commands/generate-playlist.js';
 
-async function cli(args = process.argv) {
+async function cli(args: string[] = process.argv) {
   const results = await yargs(hideBin(args))
     .command(generatePlaylist)
     // TODO: setup `.showCompletionScript()` command
