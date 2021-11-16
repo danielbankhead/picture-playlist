@@ -10,7 +10,7 @@
     "picture-playlist": "build/src/bin/index.js"
   },
   "dependencies": {
-    "@google-cloud/functions-framework": "^1.9.0",
+    "@google-cloud/functions-framework": "^2.0.0",
     "@google-cloud/logging": "^9.6.0",
     "@google-cloud/secret-manager": "^3.10.1",
     "@google-cloud/storage": "^5.14.4",
@@ -26,7 +26,7 @@
     "@types/node": "^16.10.2",
     "@types/yargs": "^17.0.3",
     "gts": "^3.1.0",
-    "typescript": "^4.0.3"
+    "typescript": "^4.5.1-rc"
   },
   "engines": {
     "node": ">=16.0.0"

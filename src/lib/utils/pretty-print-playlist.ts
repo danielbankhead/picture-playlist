@@ -20,7 +20,6 @@ import chalk from 'chalk';
 import terminalLink from 'terminal-link';
 
 import {generatePlaylistFromImage} from '../image-playlist-generator';
-import {Awaited} from './types.js';
 
 /**
  * Prints results in a nice format, varying by output source.
