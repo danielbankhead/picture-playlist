@@ -26,15 +26,15 @@ import path from 'path';
  *
  * If the string is not a valid URL, it will be treated as a 'file:' path
  *
- * @param filePath A string re
+ * @param urlOrFilePath A string representing a URL or relative file path
  */
-function resolvePathOrURLStringToURL(filePath: string): URL {
+function resolvePathOrURLStringToURL(urlOrFilePath: string): URL {
   try {
     // determine if already URL-compatible
-    return new URL(filePath);
+    return new URL(urlOrFilePath);
   } catch {
     // resolve a potentially relative path to a URL
-    return new URL(path.resolve(filePath), 'file:');
+    return new URL(path.resolve(urlOrFilePath), 'file:');
   }
 }
 
