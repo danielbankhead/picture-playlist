@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {CloudFunctionsContext} from '@google-cloud/functions-framework/build/src/functions';
+import {CloudFunctionsContext} from '@google-cloud/functions-framework';
 import {Storage} from '@google-cloud/storage';
 
 import {generatePlaylistFromImage, logger} from '../lib/index.js';

@@ -3,9 +3,9 @@
   "compilerOptions": {
     "rootDir": ".",
     "outDir": "build",
-    "module": "esnext",
-    "target": "ES2017",
-    "moduleResolution": "Node",
+    "module": "Node16",
+    "target": "ES2022",
+    "moduleResolution": "node16",
     "incremental": true,
     "allowSyntheticDefaultImports": true
   },

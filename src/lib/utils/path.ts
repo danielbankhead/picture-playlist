@@ -38,7 +38,7 @@ function resolvePathOrURLStringToURL(urlOrFilePath: string): URL {
   }
 }
 
-// TODO: test: http:, https:, file:, gs: (no protocol = file)
+// TODO: test: http:, https:, file:, gs:, (no protocol = file)
 // TODO: test: works for both full path and relative
 
 export {resolvePathOrURLStringToURL};
